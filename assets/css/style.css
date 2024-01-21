@@ -1,0 +1,204 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0.5px solid rgb(255, 254, 254);
+}
+
+
+
+.logo {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    
+}
+
+#fx img:hover{
+
+    transform: scale(1.15);
+}
+
+
+.presentar{
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 30px;
+    border: 0.5px solid rgb(233, 232, 252);
+    text-align: justify;
+    color: rgb(144, 158, 21);
+    font-size: 20px;
+    font-family: monospace;
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+
+
+
+
+
+.carrusel{
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 30px;
+    border: 0.5px solid rgb(233, 232, 252);
+
+}
+.slider-frame {
+    width: 500px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 600%; /* Ajuste el ancho al número de imágenes multiplicado por 100% */
+    animation: slide 20s infinite linear; /* Cambiado a linear para un desplazamiento constante */
+}
+
+.slider-frame li {
+    width: 16.666%; /* Ajustado al 100% dividido por el número de imágenes (6 en este caso) */
+    list-style: none;
+}
+
+.slider-frame img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0%, 100% { margin-left: 0; }
+    16.666%, 33.333% { margin-left: -100%; }
+    33.333%, 50% { margin-left: -200%; }
+    50%, 66.666% { margin-left: -300%; }
+    66.666%, 83.333% { margin-left: -400%; }
+    83.333%, 100% { margin-left: -500%; }
+}
+
+
+
+
+
+
+
+
+
+.sboton{
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 30px;
+    border: 0.5px solid rgb(233, 232, 252);
+    text-align: center;
+    
+}
+h3{
+    font-size:50px ;
+}
+
+.botones {
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-top: 0; /* Ajusta el margen superior según sea necesario */
+}
+
+.botones a {
+    text-decoration: double;
+    
+}
+
+.botones button {
+    padding: 10px 20px;
+    margin: 0 60px;    
+    border: 5px solid #fff; 
+    border-radius: 1000%;
+    color: rgb(255, 254, 254);
+    background-color: #000000;
+    border-color: blue;
+}
+
+.botones button:hover {
+    background-color: #ff0707;
+    color: #2cf112;
+}
+
+h2{
+    text-align: center;
+    color: #fff;
+
+
+
+}
+
+
+.experiencia:hover{
+    background-color: darkblue;
+    color: #ff0707;
+}
+
+
+.experiencia {
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 30px;
+    border: 0.5px solid rgb(233, 232, 252);
+    text-align: justify;
+    color: rgb(144, 158, 21);
+    font-size: 20px;
+    font-family: monospace;
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+
+
+
+.pie{
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 30px;
+    border: 0.5px solid rgb(233, 232, 252);
+    text-align: center;
+    color: aqua;
+    font-size: 20px;
+}
+
+.logosaudio {
+    margin-top: 20px;
+}
+
+.logosaudio img {
+    width: 100px; /* Ajusta el tamaño de los logos según sea necesario */
+    margin-right: 10px; /* Espaciado entre los logos */
+}
