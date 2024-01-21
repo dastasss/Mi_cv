@@ -72,12 +72,12 @@ header {
 .slider-frame ul {
     display: flex;
     padding: 0;
-    width: 600%; /* Ajuste el ancho al número de imágenes multiplicado por 100% */
-    animation: slide 20s infinite linear; /* Cambiado a linear para un desplazamiento constante */
+    width: 600%; 
+    animation: slide 20s infinite linear; 
 }
 
 .slider-frame li {
-    width: 16.666%; /* Ajustado al 100% dividido por el número de imágenes (6 en este caso) */
+    width: 16.666%; 
     list-style: none;
 }
 
@@ -121,7 +121,7 @@ h3{
     display: inline-block;
     color: #fff;
     margin-bottom: 50px;
-    margin-top: 0; /* Ajusta el margen superior según sea necesario */
+    margin-top: 0; 
 }
 
 .botones a {
@@ -196,6 +196,6 @@ h2{
 }
 
 .logosaudio img {
-    width: 100px; /* Ajusta el tamaño de los logos según sea necesario */
-    margin-right: 10px; /* Espaciado entre los logos */
+    width: 100px; 
+    margin-right: 10px; 
 }
